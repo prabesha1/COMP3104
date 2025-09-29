@@ -1,0 +1,23 @@
+{
+  "name": "comp3104",
+  "version": "1.0.0",
+  "description": "Hi 👋, my name is **Prabesh Shrestha**.   I’m currently studying **COMP-3104 (DevOps)** at **George Brown College**.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Running tests (none configured yet)\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prabesha1/COMP3104.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/prabesha1/COMP3104/issues"
+  },
+  "homepage": "https://github.com/prabesha1/COMP3104#readme"
+}
+
