@@ -1,23 +1,57 @@
 {
   "name": "comp3104",
   "version": "1.0.0",
-  "description": "Hi 👋, my name is **Prabesh Shrestha**.   I’m currently studying **COMP-3104 (DevOps)** at **George Brown College**.",
+  "description": "Hi, my name is Prabesh Shrestha. I’m currently studying COMP-3104 (DevOps) at George Brown College.",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Running tests (none configured yet)\" && exit 0"
-  },
+  "homepage": "https://prabesha1.github.io/COMP3104",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/prabesha1/COMP3104.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Prabesh Shrestha",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/prabesha1/COMP3104/issues"
   },
-  "homepage": "https://github.com/prabesha1/COMP3104#readme"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Warning: No tests created yet.\"",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^6.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
-
